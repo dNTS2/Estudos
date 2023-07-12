@@ -1,0 +1,18 @@
+Não esquecer das configurações globais no arquivo css 
+(fontes, paleta de cores, margens, paddings e etc...)
+
+Não esquecer das palavras e frases em destaque (Links, nomes importantes, palavras chave)
+
+Não esquecer das abreviações ( Tags abbr)
+
+Não esquecer do @Import ( Para importar fontes e outras coisas da web) 
+
+Não esquecer do format (Opentype) no @font-face quando usar uma fonte local
+
+:root = Espaço para descrever as variáveis ( fontes, cores entre outras formatações { Usar "--" Antes da variável desejada })
+
+* = Configurações Globais
+
+Sempre lembrar das configurações de Responsividade
+
+::after ( adicionar conteúdos e configurações depois do texto ou item)

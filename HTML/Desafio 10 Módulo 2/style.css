@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+
+
+}
+
+@font-face {
+
+    font-family: Bebasnue;
+    src: url(fontes/BebasNeue-Regular.ttf) format('opentype');
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c5ebd6;
+    font-size: 16px;
+
+
+
+}
+
+a.externo::after{
+
+    content: '\00a0\1F517';
+
+}
+
+main p{
+    text-indent: 30px;
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1em;
+
+
+}
+
+header {
+    padding: 5px;
+    margin-top: -30px;
+    min-height: 150px;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(25, 182, 129), rgba(15, 121, 41, 0.719), rgb(4, 68, 40));
+
+}
+
+header h1 {
+    
+    font-family: Bebasnue;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.39);
+    font-size: 3em;
+
+}
+
+header>p {
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.295);
+}
+
+/* Config Menu*/
+
+.menu{
+    
+    background-color: rgb(4, 68, 40);
+    padding-left: 10px;
+
+
+}
+.menu ul>li {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+nav>ul>li>a {
+
+    text-decoration: none;
+    color: rgb(190, 255, 170);
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.7s;
+    margin-bottom: 10px;
+}
+
+nav>ul>li>a:hover {
+    background-color: rgba(0, 0, 0, 0.404);
+    font-size: 17px;
+
+}
+
+/*Fim das configs do Menu*/
+
+/*Configs da MainPage */
+main {
+
+    background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    border-radius: 0px 0px 20px 20px;
+
+
+
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(27, 177, 247);
+    
+}
+
+main a:hover{
+
+    text-decoration: underline;
+
+}
+
+main>section h2 {
+
+    font-family: idroid;
+    color: darkgreen;
+    text-indent: none;
+    font-size: 1.2em;
+}
+
+div.video {
+
+    background-color: #0e1e35ef;
+    margin-bottom: 30px;
+    margin:0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 58%;
+
+
+
+}
+
+div.video > iframe {
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width:90%;
+    height:90% ;
+
+}
+
+.subt {
+    background-image: linear-gradient(to right, rgba(0, 248, 112, 0.363), white);
+    color: green;
+    font-family: 'idroid';
+    src: url("fontes/idroid.otf");
+    text-indent: none;
+
+}
+
+.img {
+ max-width: 100%;
+ display: flex;
+ margin: auto;
+}
+
+.imgpequena{
+ 
+        max-width: 350px;
+        display: flex;
+        margin: auto;
+
+
+}
+
+/* Configs do Extra */
+.extra {
+    background-color: rgba(0, 255, 255, 0.226);
+    padding: 10px;
+}
+
+.h3extra {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(3, 163, 115);
+    border-radius: 10px 10px 0px 0px;
+    margin: 0;
+}
+
+
+.bgreen {
+    color: green;
+}
+
+.ulextra {
+    
+    font-size: 1em;
+    list-style-type: "✔\00a0";
+    list-style-position: inside;
+    text-decoration: underline;
+    columns: 2;
+    margin: 10px;
+
+}
+
+/*Fim das configs do Extra*/
+
+/*Configs do Rodapé */
+
+
+footer {
+
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+footer a:hover{
+
+text-decoration: underline;
+color: rgb(194, 247, 247);
+
+}
