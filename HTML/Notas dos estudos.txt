@@ -16,3 +16,17 @@ Não esquecer do format (Opentype) no @font-face quando usar uma fonte local
 Sempre lembrar das configurações de Responsividade
 
 ::after ( adicionar conteúdos e configurações depois do texto ou item)
+
+background image:
+
+    height: 100vh;
+            background-color: black;
+            background-image: url("*source ou url da imagem*");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+Short Hand**: background > color > image > position > repeat > [ Size ] > Attachment
+
+[ Segundo a especificação do W3C Era para funcionar dessa forma, porém o "Size" não está funcionando na shorthand, então colocar separado. ]
