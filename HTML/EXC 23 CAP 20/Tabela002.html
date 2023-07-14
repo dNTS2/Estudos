@@ -30,12 +30,21 @@
             text-align: right;
 
         }
+
+    caption{
+
+        font-size: 1.3em;
+        font-weight: bold;
+        background-color: lightgray;
+
+    }
     </style>
 </head>
 
 <body>
 
     <!--Anatomia para tabelas grandes
+        Caption = Legenda
     THEAD
         TR, TD, TH
     TBODY
@@ -46,10 +55,11 @@
     -->
     <h1>Uso de Tabelas Grandes</h1>
     <table>
+        <caption>População das Unidades federativas</caption>
         <THEAD>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </THEAD>
         <tbody>
@@ -200,7 +210,7 @@
 
         </tbody>
         <tfoot>
-            <TH>Total de Habitantes</TH>
+            <TH scope="row">Total de Habitantes</TH>
             <td class="num"><strong>000000000</strong></td>
 
             
