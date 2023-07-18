@@ -19,9 +19,8 @@
 }
 
 * {
-    text-align: justify;
-    margin: none;
-    padding: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -69,6 +68,7 @@ header img {
 
     border: solid white;
     margin: 10px 10px 0;
+    
 
 }
 
@@ -76,6 +76,7 @@ nav {
 
     background-color: #023859;
     font-size: 1.5em;
+    
 
 }
 
@@ -88,11 +89,13 @@ nav a:hover {
 nav ul {
 
     text-align: center;
+    margin-bottom: 0px;
 
 }
 
-nav>ul>a {
-    margin-top: 0;
+.menu >ul >a {
+    
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -104,38 +107,71 @@ nav>ul>a {
 main {
 
     background-color: white;
-    max width: 600px;
+    max-width: 900px;
     min-width: 300px;
     margin: auto;
     padding: 20px;
+    box-shadow: 2px 2px 3px black;
 
 
+}
+
+main section{
+
+    margin: 50px 10px;
+    text-align:justify;
+    font-size: 1.2em;
 }
 
 main div.box {
 
-    margin: auto;
+    font-family: 'Arial';
     color: white;
-    background-color: #0378A6;
-    padding: 10px;
-    border-radius: 30px;
-    width: 300px;
-    height: 300px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.377);
-    text-align: center;
+    background-color: #023859;
+    margin: 20px auto;
+    padding: 20px;
+    width: 600px;
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.473);
 
 }
 
-div.video {
+.download{
 
-    background-color: black;
-    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0378A6;
 
 }
 
-div>iframe {
+article p {
 
-    position: absolute;
+    margin: 20px;
+
+}
+
+.csgo2{
+    margin-left: 20px;
+    width: 840px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.575);
+
+}
+
+div.video{
+
+width: 560px;
+height: 315px;
+margin: auto;
+padding: 10px;
+
+}
+
+picture > figcaption{
+
+    background-color: lightgrey;
+    width: 840px;
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: bold;
 
 }
 
@@ -144,5 +180,26 @@ footer {
     background-color: #023859;
     color: white;
     text-align: center;
+
+
+}
+
+footer p{
+
+    padding: 10px;
+
+}
+
+footer nav > ul> a{
+    font-weight: normal;
+    color: white;
+    font-size: 0.7em;
+    list-style-type: none;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+footer nav{
 
 }
